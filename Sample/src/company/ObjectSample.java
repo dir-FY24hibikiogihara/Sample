@@ -20,7 +20,7 @@ public class ObjectSample {
         //インスタンスの作成
         var devDepartment = new Department("開発部", "yy", 0);
         var engineer = new Engineer("田中", devDepartment, "一般社員", 88, "Java");//変更
-        
+        //
                 
         //インスタンスの呼び出し
         engineer.report();
